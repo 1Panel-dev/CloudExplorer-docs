@@ -1,19 +1,20 @@
-本仓库保存了 [CloudExplorer Lite 项目]() 的 [官方文档](https://fit2cloud.com/cloudexplorer-lite/docs/)，该文档使用 [MkDocs]() 文档框架下的 [Material for MkDocs]() 主题进行构建。
-
 ## 本地开发
 
 ### 克隆本仓库
+
 ```bash
-git clone https://github.com/CloudExplorer-Dev/doc.git
+git clone https://github.com/1Panel-dev/CloudExplorer-docs
 ```
 
 ### 安装依赖
+
 ```bash
 cd docs
 pip install -r requirements/requirements.txt
 ```
 
 ### 修改文档内容
+
 本文档的文档结构定义在 `mkdocs.yml` 文件中，文档的具体内容均在 `docs` 目录中。
 ```yaml
 ..........
@@ -73,19 +74,21 @@ nav:
         - 开发指南: dev_manual/dev_manual.md
     - 更新日志: update_log.md
     - 联系我们: contact.md
-
 ..........
 ```
 
 文档内容使用 markdown 语法编写，若要添加新的文档，需要先在 `mkdocs.yml` 文件中的 `nav` 部分增加对应章节导航。
 
 ### 本地调试文档
+
 ```bash
 mkdocs serve
 ```
+
 执行上述命令后，可通过 `http://127.0.0.1:8000` 地址查看生成的文档内容，当修改文档后，页面内容会自动更新。
 
 ### 构建文档
+
 ```bash
 mkdocs build
 ```
@@ -95,9 +98,11 @@ mkdocs build
 ## 帮助完善文档
 
 ### Fork 文档仓库
+
 点击仓库右上角的 `fork` 按钮，复制本仓库到自己的 github 账号。
 
 ### 克隆 fork 后的仓库
+
 ```bash
 git clone https://github.com/your-github-account/docs.git
 ```
