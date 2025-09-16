@@ -5,9 +5,9 @@ site_author: 'CloudExplorer Lite'
 google_analytics: ['UA-147297392-11', 'https://www.fit2cloud.com/cloudexplorer-lite/index.html']
 
 repo_name: 'CloudExplorer Lite'
-repo_url: 'https://github.com/CloudExplorer-Dev'
+repo_url: 'https://github.com/1Panel-dev/CloudExplorer'
 
-edit_uri: https://github.com/CloudExplorer-Dev/docs/tree/main/docs
+edit_uri: https://github.com/1Panel-dev/CloudExplorer-docs
 theme:
     name: 'material'
     logo: './img/logo-white.png'
@@ -138,7 +138,7 @@ markdown_extensions:
 extra_css:
     - css/extra.css
 
-copyright: Copyright &copy; 2014-2023 <a href="https://www.fit2cloud.com">杭州飞致云信息科技有限公司</a>, All Rights Reserved. <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备14038283号</a>
+copyright: Copyright &copy; 2014-2025 <a href="https://www.fit2cloud.com">杭州飞致云信息科技有限公司</a>, All Rights Reserved. <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备14038283号</a>
 
 plugins:
     - search:
@@ -154,7 +154,7 @@ extra:
         property: UA-147297392-11
     social:
         - icon: fontawesome/brands/github
-          link: https://github.com/CloudExplorer-dev
+          link: https://github.com/1Panel-dev/CloudExplorer
         - icon: fontawesome/solid/envelope
           link: mailto:support@fit2cloud.com
         - icon: fontawesome/solid/phone
