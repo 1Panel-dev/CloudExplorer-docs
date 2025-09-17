@@ -1,6 +1,6 @@
 .md-header {
   background-color: rgb(37,43,60);
-  top: 48px;
+  /* top: 48px; */
 }
 
 .md-footer {
@@ -15,9 +15,9 @@
   padding-top: .8rem;
 }
 
-.md-main__inner {
+/* .md-main__inner {
   margin-top: 3rem;
-}
+} */
 
 .progress-label {
   position: absolute;
